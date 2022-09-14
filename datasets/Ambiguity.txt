@@ -1,0 +1,10 @@
+Assumption: the information user awares that the app provides and collects.
+
+Some information type ambiguity:
+
+1. Assotiations: Do we treat "music" and "my favorite music" as different types? "how  various cryptocurrencies are performing over the past 24 hours" is one data type or it should be three data type "cryptocurrencies", "performing", and "the past 24 hours"?
+2. Hypernyms: "numerical information such as A and B", do we include only A and B, or we also include "numerical information" which is the generic phrase of A and B?
+3. Existence vs absence: do we also record "user notices that some information is missing"?
+4. Meta contents: every app has to "click this button and that tab, etc." Do we also treat "icons" and "buttons" as information type?
+5. pronouns: some users just use "this, that, there" to refer to something and never point it out in the text. How do we deal with pronouns referring to completely different things?
+6. Duplication: the same thing might occur multiple times in a text. Do we label them all or just once?
