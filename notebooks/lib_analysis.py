@@ -7,7 +7,7 @@ def read_data(filename):
     for i in range(len(lines)):
         if lines[i].startswith('https'):
             continue
-        if lines[i].startswith('MAS_'):
+        if lines[i].startswith('MAS'):
             # initialize the scenario data dictionary
             scenario_id = lines[i][0:lines[i].index(':')]
             data[scenario_id] = {'scenario_id': scenario_id}
@@ -20,6 +20,7 @@ def read_data(filename):
                 i += 1
             data[scenario_id]['text'] = ' '.join(text)
         i += 1
+    # print(data)
     return data
 
 # convert coded scenarios into code sequences per word
@@ -41,9 +42,9 @@ def parse_codes(text):
             clean_text = clean_text[:-1]
             offsets.append((code, len(clean_text)))
         elif text[i] == '[':
-            scores.append(text[i+1])
+            # scores.append(text[i+1])
             offsets.append(('[', len(clean_text)))
-            skip = 2
+            skip = 0
             inside = True
         elif text[i] == ']':
             offsets.append((']', len(clean_text)))
