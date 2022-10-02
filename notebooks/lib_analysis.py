@@ -1,4 +1,4 @@
-import sys
+import sys, json, random, os
 
 # read scenarios indexed by scenario_id
 def read_data(filename):
@@ -22,6 +22,20 @@ def read_data(filename):
         i += 1
     # print(data)
     return data
+
+# randomly sample raw data
+def read_raw_sample(filename, sample_size, dest):
+    data = ""
+    f = open(filename, 'r')
+    jlist = json.load(f)
+    sample_size = min(len(jlist), sample_size)
+    sample_list = random.sample(jlist, sample_size)
+    for sample in sample_list:
+        data += sample["app_url"] + "\n" + sample['scenario_id'] + ": " + sample["text"] + "\n\n"
+    if not os.path.exists(dest):
+        with open(dest, 'w') as f:
+            f.write(data)
+
 
 # convert coded scenarios into code sequences per word
 import spacy
