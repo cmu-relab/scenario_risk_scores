@@ -15,7 +15,7 @@ def read_data(filename):
             # read the scenario text
             text = [lines[i][lines[i].index(':')+1:].strip()]
             i += 1
-            while i < len(lines) and lines[i] != '\n':
+            while i < len(lines) and not lines[i].startswith('https'):
                 text.append(lines[i])
                 i += 1
             data[scenario_id]['text'] = ' '.join(text)
