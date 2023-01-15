@@ -1,0 +1,102 @@
+<script>
+
+</script>
+
+<style>
+  .scale {
+      display: grid;
+      grid-template-columns: repeat(6, 40px 15px 15px 40px);
+      gap: 0px;
+  }
+  .scale div.vbar {
+      border-left: 1px solid black;
+  }
+  .scale div.hbar {
+      border-bottom: 1px solid black;
+  }
+  .scale .choice {
+      grid-column-end: span 2;
+      grid-row-end: span 2;
+      padding: 1px 0;
+      text-align: center;
+  }
+  .scale .label {
+      font-size: smaller;
+      grid-column-end: span 4;
+      padding: 5px 0;
+      text-align: center;
+  }
+</style>
+
+<input type="hidden" id="infotype1"  name="infotype1" value="${infotype1}">
+<input type="hidden" id="infotype1"  name="infotype2" value="${infotype2}">
+<input type="hidden" id="infotype1"  name="infotype3" value="${infotype3}">
+<input type="hidden" id="infotype1"  name="infotype4" value="${infotype4}">
+<input type="hidden" id="infotype1"  name="infotype5" value="${infotype5}">
+
+<p>Below is a scenario that includes annotated information types. For each type, seperately show below, please choose your willingness to share that information with a third party.</p>
+
+<p>${scenario}</p>
+
+<p>1. How willing are you to share <b>${infotype1}</b>?</p>
+
+<div class="scale">
+  <div></div>
+  <div class="choice">
+    <input type="radio" id="level0" name="level0" value="0" />
+  </div>
+  <div class="hbar"></div>
+  <div class="hbar"></div>
+  <div class="choice">
+    <input type="radio" id="level0" name="level0" value="1" />
+  </div>
+  <div class="hbar"></div>
+  <div class="hbar"></div>
+  <div class="choice">
+    <input type="radio" id="level0" name="level0" value="2" />
+  </div>
+  <div class="hbar"></div>
+  <div class="hbar"></div>
+  <div class="choice">
+    <input type="radio" id="level0" name="level0" value="3" />
+  </div>
+  <div class="hbar"></div>
+  <div class="hbar"></div>
+  <div class="choice">
+    <input type="radio" id="level0" name="level0" value="4" />
+  </div>
+  <div class="hbar"></div>
+  <div class="hbar"></div>
+  <div class="choice">
+    <input type="radio" id="level0" name="level0" value="5" />
+  </div>
+  <div></div>
+
+  <div></div><div></div>
+  <div></div><div></div>
+  <div></div><div></div>
+  <div></div><div></div>
+  <div></div><div></div>
+  <div></div><div></div>
+
+  <div class="label">
+    Very<br/>Willing
+  </div>
+  <div class="label">
+    Willing
+  </div>
+  <div class="label">
+    Somewhat<br/>Willing
+  </div>
+  <div class="label">
+    Somewhat<br/>Unwilling
+  </div>
+  <div class="label">
+    Unwilling
+  </div>
+  <div class="label">
+    Very<br/>Unwilling
+  </div>
+</div>
+
+<!-- for each infotype, we repeat the scale prompt once -->
