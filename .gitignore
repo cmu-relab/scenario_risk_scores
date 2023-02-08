@@ -1,3 +1,5 @@
 notebooks/__pycache__/*
 
-notebooks/coded_data.csv
+notebooks/model
+
+.ipynb_checkpoints/*
