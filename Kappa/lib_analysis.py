@@ -2,11 +2,12 @@ import sys, json, random, os
 # convert coded scenarios into code sequences per word
 import spacy
 nlp = spacy.load("en_core_web_sm")
+import io
 
 # read scenarios indexed by scenario_id
 def read_data(filename):
     data = {}
-    lines = open(filename, 'r').readlines()
+    lines = io.open(filename, encoding='latin-1').readlines()
     for i in range(len(lines)):
         if lines[i].startswith('https'):
             continue
