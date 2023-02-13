@@ -1,5 +1,3 @@
-notebooks/__pycache__/*
-
-notebooks/model
+__pycache__/*
 
 .ipynb_checkpoints
