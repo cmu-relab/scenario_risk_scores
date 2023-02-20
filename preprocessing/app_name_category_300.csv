@@ -1,0 +1,301 @@
+id,app_name,app_url,app_category,scenario_id
+3,Pinterest,https://apps.apple.com/us/app/pinterest/id429047995,Lifestyle,MAS-G-0001
+4,OneFootball - Soccer Scores,https://play.google.com/store/apps/details?id=de.motain.iliga,Sports,MAS-G-0002
+5,Our Groceries Shopping List,https://play.google.com/store/apps/details?id=com.headcode.ourgroceries,Shopping,MAS-G-0003
+6,rif is fun for Reddit,https://play.google.com/store/apps/details?id=com.andrewshu.android.reddit,Social,MAS-G-0004
+7,League of Legends: Wild Rift,https://apps.apple.com/us/app/league-of-legends-wild-rift/id1480616990,Games,MAS-G-0005
+8,Todoist: To-Do List & Planner,https://apps.apple.com/us/app/todoist-to-do-list-tasks/id572688855,Productivity,MAS-G-0006
+9,PCalc,https://apps.apple.com/us/app/pcalc/id284666222,Utilities,MAS-G-0007
+10,TikTok,https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically,Social,MAS-G-0008
+11,Apollo for Reddit,https://apps.apple.com/us/app/apollo-for-reddit/id979274575,News,MAS-G-0009
+12,Twitter,https://play.google.com/store/apps/details?id=com.twitter.android,Social,MAS-G-0010
+13,Uber Eats: Food Delivery,https://play.google.com/store/apps/details?id=com.ubercab.eats,food & drink,MAS-G-0011
+14,Twitter,https://play.google.com/store/apps/details?id=com.twitter.android,Social,MAS-G-0012
+15,AIMP,https://play.google.com/store/apps/details?id=com.aimp.player,music & audio,MAS-G-0013
+16,Twitter,https://apps.apple.com/us/app/twitter/id333903271,News,MAS-G-0014
+17,Garmin Connect,https://apps.apple.com/us/app/garmin-connect/id583446403,Health & Fitness,MAS-G-0015
+18,Apple Music,https://apps.apple.com/us/app/apple-music/id1108187390,Music,MAS-G-0016
+19,Duolingo: language lessons,https://play.google.com/store/apps/details?id=com.duolingo&hl=en_US&gl=US,education,MAS-G-0017
+20,Fitbit: Health & Fitness,https://apps.apple.com/us/app/fitbit-health-fitness/id462638897,Health & Fitness,MAS-G-0018
+21,Apollo for Reddit,https://apps.apple.com/us/app/apollo-for-reddit/id979274575,News,MAS-G-0019
+22,Amazon Shopping,https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping,shopping,MAS-G-0020
+23,TikTok,https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically,Social,MAS-G-0021
+24,LINE,https://apps.apple.com/us/app/line/id443904275,Social Networking,MAS-G-0022
+25,Letsfit,https://play.google.com/store/apps/details?id=com.honbow.letsfit,Health & Fitness,MAS-G-0023
+26,Spotify - Music and Podcasts,https://apps.apple.com/us/app/spotify-music-and-podcasts/id324684580,Music,MAS-G-0024
+27,Amazon Shopping,https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping,shopping,MAS-G-0025
+28,NewsBreak: Local News & Alerts,https://play.google.com/store/apps/details?id=com.particlenews.newsbreak,news & magazines,MAS-G-0026
+29,Weather data & microclimate :,https://play.google.com/store/apps/details?id=com.wunderground.android.weather,weather,MAS-G-0027
+30,Instagram,https://play.google.com/store/apps/details?id=com.instagram.android,Social,MAS-G-0028
+31,"Fetch: Have Fun, Save Money",https://play.google.com/store/apps/details?id=com.fetchrewards.fetchrewards.hop,shopping,MAS-G-0029
+32,McDonald's,https://apps.apple.com/us/app/mcdonalds/id922103212,food & drink,MAS-G-0030
+33,Kroger,https://play.google.com/store/apps/details?id=com.kroger.mobile,shopping,MAS-G-0031
+34,Kroger,https://apps.apple.com/us/app/kroger/id403901186,shopping,MAS-G-0032
+35,"Spotify: Music, Podcasts, Lit",https://play.google.com/store/apps/details?id=com.spotify.music,music & audio,MAS-G-0033
+36,SkyView Lite,https://play.google.com/store/apps/details?id=com.t11.skyviewfree,education,MAS-G-0034
+37,YouTube,https://play.google.com/store/apps/details?id=com.google.android.youtube,video players & editors,MAS-G-0035
+38,CARROT Weather: Alerts & Radar,https://apps.apple.com/us/app/carrot-weather-alerts-radar/id961390574,Local Forecasts & Live Maps,MAS-G-0036
+39,Tubi - Movies & TV Shows,https://play.google.com/store/apps/details?id=com.tubitv,entertainment,MAS-G-0037
+40,Kitchen Timer,https://play.google.com/store/apps/details?id=com.wixsite.ut_app.uttimer,tools,MAS-G-0038
+41,Pushbullet: SMS on PC and more,https://play.google.com/store/apps/details?id=com.pushbullet.android,Productivity,MAS-G-0039
+42,rif is fun golden platinum,https://play.google.com/store/apps/details?id=com.andrewshu.android.redditdonation&hl=en_US&gl=US,social,MAS-G-0040
+43,Apple Music,https://apps.apple.com/us/app/apple-music/id1108187390 ,Music,MAS-G-0041
+44,Waze Navigation & Live Traffic,https://apps.apple.com/us/app/waze-navigation-live-traffic/id323229106,Navigation,MAS-G-0042
+45,Chipotle - Fresh Food Fast,https://play.google.com/store/apps/details?id=com.chipotle.ordering&hl=en_US&gl=US,food & drink,MAS-G-0043
+46,CheapCharts - Digital Deals,https://apps.apple.com/us/app/cheapcharts-your-media-deals/id772046134,Entertainment,MAS-G-0044
+47,Spotify - Music and Podcasts,https://apps.apple.com/us/app/spotify-music-and-podcasts/id324684580,Music,MAS-G-0045
+48,Apollo for Reddit,https://apps.apple.com/us/app/apollo-for-reddit/id979274575,News,MAS-G-0046
+49,Twitter,https://play.google.com/store/apps/details?id=com.twitter.android&hl=en_US&gl=US,Social,MAS-G-0047
+50,Reddit,https://apps.apple.com/us/app/reddit/id1064216828,News,MAS-G-0048
+51,WhatsApp Messenger,https://play.google.com/store/apps/details?id=com.whatsapp,communication,MAS-G-0049
+52,Etsy: Custom & Creative Goods,https://play.google.com/store/apps/details?id=com.etsy.android&hl=en_US&gl=US,Shopping,MAS-G-0050
+53,Amazon Shopping,https://apps.apple.com/us/app/amazon-shopping/id297606951,shopping,MAS-G-0051
+54,WhatsApp Messenger,https://play.google.com/store/apps/details?id=com.whatsapp&hl=en_US&gl=US,communication,MAS-G-0052
+55,"Discord - Chat, Talk & Hangout",https://apps.apple.com/us/app/discord-chat-talk-hangout/id985746746,Social Networking,MAS-G-0053
+56,Yahoo Fantasy Sports & Daily,https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.fantasyfootball,Sports,MAS-G-0054
+57,YouTube,https://play.google.com/store/apps/details?id=com.google.android.youtube,video players & editors,MAS-G-0055
+58,lichess • Free Online Chess,https://play.google.com/store/apps/details?id=org.lichess.mobileapp,Games,MAS-G-0056
+59,Twitch: Live Game Streaming,https://apps.apple.com/us/app/twitch-live-game-streaming/id460177396,Photo & Video,MAS-G-0057
+60,Deezer: Music & Podcast Player,https://play.google.com/store/apps/details?id=deezer.android.app,music & audio,MAS-G-0058
+61,Boost for reddit,https://play.google.com/store/apps/details?id=com.rubenmayayo.reddit,Social,MAS-G-0059
+62,VLC media player,https://apps.apple.com/us/app/vlc-media-player/id650377962,Photo & Video,MAS-G-0060
+63,Waze Navigation & Live Traffic,https://play.google.com/store/apps/details?id=com.waze,maps & navigation,MAS-G-0061
+64,Poweramp Music Player (Trial),https://play.google.com/store/apps/details?id=com.maxmpz.audioplayer,music & audio,MAS-G-0062
+65,Family Dollar,https://play.google.com/store/apps/details?id=com.familydollar&hl=en_US&gl=US,shopping,MAS-G-0063
+66,Flo Ovulation & Period Tracker,https://play.google.com/store/apps/details?id=org.iggymedia.periodtracker,health & fitness,MAS-G-0064
+67,Screen Recorder - AZ Recorder,https://play.google.com/store/apps/details?id=com.hecorat.screenrecorder.free,video players & editors,MAS-G-0065
+68,Reddit,https://apps.apple.com/us/app/reddit/id1064216828,News,MAS-G-0066
+69,Paramount+ | Peak Streaming,https://play.google.com/store/apps/details?id=com.cbs.app,entertainment,MAS-G-0067
+70,Screen Recorder - XRecorder,https://play.google.com/store/apps/details?id=videoeditor.videorecorder.screenrecorder,video players & editors,MAS-G-0068
+71,Lose It! – Calorie Counter,https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629,Health & Fitness,MAS-G-0069
+72,Weather - The Weather Channel,https://apps.apple.com/us/app/weather-the-weather-channel/id295646461,weather,MAS-G-0070
+73,Audible: Audio Entertainment,https://play.google.com/store/apps/details?id=com.audible.application,books & reference,MAS-G-0071
+74,Calorie Counter - Cronometer,https://play.google.com/store/apps/details?id=com.cronometer.android.gold,Health & Fitness,MAS-G-0072
+75,YouMail Voicemail Call Blocker,https://play.google.com/store/apps/details?id=com.youmail.android.vvm,communication,MAS-G-0073
+76,InboxDollars,https://play.google.com/store/apps/details?id=com.mentormate.android.inboxdollars,entertainment,MAS-G-0074
+77,Sudoku - The Clean One,https://play.google.com/store/apps/details?id=ee.dustland.android.dustlandsudoku,Games,MAS-G-0075
+78,Twitter,https://play.google.com/store/apps/details?id=com.twitter.android,Social,MAS-G-0076
+79,Pandora - Music & Podcasts,https://play.google.com/store/apps/details?id=com.pandora.android,music & audio,MAS-G-0077
+80,MyFitnessPal: Calorie Counter,https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718,Health & Fitness,MAS-G-0078
+81,Weather,https://apps.apple.com/us/app/weather/id1069513131,weather,MAS-G-0079
+82,Netflix,https://play.google.com/store/apps/details?id=com.netflix.mediaclient,entertainment,MAS-G-0080
+83,Reddit,https://play.google.com/store/apps/details?id=com.reddit.frontpage&hl=en_US&gl=US,Social,MAS-G-0081
+84,MLB,https://play.google.com/store/apps/details?id=com.bamnetworks.mobile.android.gameday.atbat,Sports,MAS-G-0082
+85,Instagram,https://apps.apple.com/us/app/instagram/id389801252,Photo & Video,MAS-G-0083
+86,RedReader,https://play.google.com/store/apps/details?id=org.quantumbadger.redreader&hl=en_US&gl=US,Social,MAS-G-0084
+87,My Calendar - Period Tracker,https://play.google.com/store/apps/details?id=com.lbrc.PeriodCalendar,medical,MAS-G-0085
+88,Upside-Cash back on gas & food,https://apps.apple.com/us/app/getupside-cashback-gas-food/id1099997174,travel,MAS-G-0086
+89,Movepic: 3D Photo Motion Maker,https://play.google.com/store/apps/details?id=com.ryzenrise.movepic,photography,MAS-G-0087
+90,Webull: Investing & Trading,https://apps.apple.com/us/app/webull-investing-trading/id1179213067,Finance,MAS-G-0088
+91,Chipotle - Fresh Food Fast,https://play.google.com/store/apps/details?id=com.chipotle.ordering,food & drink,MAS-G-0089
+92,Twitter,https://play.google.com/store/apps/details?id=com.twitter.android,Social,MAS-G-0090
+93,Smart Life - Smart Living,https://play.google.com/store/apps/details?id=com.tuya.smartlife,Lifestyle,MAS-G-0091
+94,Flashscore - live scores,https://apps.apple.com/us/app/flashscore-live-scores/id766443283,Sports,MAS-G-0092
+95,thinkorswim Mobile: Trading,https://play.google.com/store/apps/details?id=com.devexperts.tdmobile.platform.android.thinkorswim,Finance,MAS-G-0093
+96,Snapchat,https://play.google.com/store/apps/details?id=com.snapchat.android,communication,MAS-G-0094
+97,Merlin Bird ID by Cornell Lab,https://play.google.com/store/apps/details?id=com.labs.merlinbirdid.app,books & reference,MAS-G-0095
+98,DraftKings Fantasy Sports,https://apps.apple.com/us/app/draftkings-fantasy-sports/id710535379,Sports,MAS-G-0096
+99,"Spotify: Music, Podcasts, Lit",https://play.google.com/store/apps/details?id=com.spotify.music,music & audio,MAS-G-0097
+100,Apollo for Reddit,https://apps.apple.com/us/app/apollo-for-reddit/id979274575,News,MAS-G-0098
+101,Instagram,https://apps.apple.com/us/app/instagram/id389801252,Photo & Video,MAS-G-0099
+102,Apple Health,https://apps.apple.com/us/app/apple-health/id1242545199,Health & Fitness,MAS-G-0100
+103,Cash App,https://apps.apple.com/us/app/cash-app/id711923939,Finance,MAS-P-0101
+104,Candy Crush Saga,https://play.google.com/store/apps/details?id=com.king.candycrushsaga,Games,MAS-P-0102
+105,Amazon Shopping,https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping,shopping,MAS-P-0103
+106,Instacart-Get groceries today,https://play.google.com/store/apps/details?id=com.instacart.client,food & drink,MAS-P-0104
+107,Credit Karma,https://apps.apple.com/us/app/credit-karma/id519817714,Finance,MAS-P-0105
+108,Chess - Play and Learn,https://play.google.com/store/apps/details?id=com.chess,Games,MAS-P-0106
+109,Life360: Find Family & Friends,https://apps.apple.com/us/app/life360-find-family-friends/id384830320,Social Networking,MAS-P-0107
+110,Receipt Ninja - Split Expenses,https://play.google.com/store/apps/details?id=com.serene.receiptninja&hl=en_US&gl=US,Finance,MAS-P-0108
+111,Samsung Health,https://play.google.com/store/apps/details?id=com.sec.android.app.shealth,Health & Fitness,MAS-P-0109
+112,Google Translate,https://apps.apple.com/us/app/google-translate/id414706506,Reference,MAS-P-0110
+113,Ibotta: Save & Earn Cash Back,https://play.google.com/store/apps/details?id=com.ibotta.android,shopping,MAS-P-0111
+114,MyFitnessPal: Calorie Counter,https://play.google.com/store/apps/details?id=com.myfitnesspal.android,Health & Fitness,MAS-P-0112
+115,Wyze - Make Your Home Smarter,https://play.google.com/store/apps/details?id=com.hualai,Lifestyle,MAS-P-0113
+116,Instagram,https://play.google.com/store/apps/details?id=com.instagram.android,Social,MAS-P-0114
+117,Fantasy Football My Playbook,https://play.google.com/store/apps/details?id=com.fantasypros.myplaybook,Sports,MAS-P-0115
+118,Credit Karma,https://apps.apple.com/us/app/credit-karma/id519817714,Finance,MAS-P-0116
+119,Healthi: Personal Weight Loss,https://play.google.com/store/apps/details?id=com.ellisapps.itrackbitesplus,Health & Fitness,MAS-P-0117
+120,Venmo,https://apps.apple.com/us/app/venmo/id351727428,Finance,MAS-P-0118
+121,Chime – Mobile Banking,https://apps.apple.com/us/app/chime-mobile-banking/id836215269,Finance,MAS-P-0119
+122,Action Network Sports Betting,https://apps.apple.com/us/app/action-network-sports-betting/id1083677479,Sports,MAS-P-0120
+123,"Yelp: Food, Delivery & Reviews",https://apps.apple.com/us/app/yelp-food-delivery-reviews/id284910350,food & drink,MAS-P-0121
+124,MyFitnessPal: Calorie Counter,https://play.google.com/store/apps/details?id=com.myfitnesspal.android,Health & Fitness,MAS-P-0122
+125,"Spotify: Music, Podcasts, Lit",https://play.google.com/store/apps/details?id=com.spotify.music,music & audio,MAS-P-0123
+126,Uber Eats: Food Delivery,https://play.google.com/store/apps/details?id=com.ubercab.eats,food & drink,MAS-P-0124
+127,Publix,https://apps.apple.com/us/app/publix/id562794249,shopping,MAS-P-0125
+128,Reddit,https://play.google.com/store/apps/details?id=com.reddit.frontpage,Social,MAS-P-0126
+129,Instacart-Get groceries today,https://play.google.com/store/apps/details?id=com.instacart.client,food & drink,MAS-P-0127
+130,GPS Plotter,https://play.google.com/store/apps/details?id=com.websmithing.wp.gpstracker_cs,maps & navigation,MAS-P-0128
+131,MEye,https://play.google.com/store/apps/details?id=com.MEye&hl=en_GB&gl=US&pli=1,tools,MAS-P-0129
+132,Fitbit: Health & Fitness,https://apps.apple.com/us/app/fitbit-health-fitness/id462638897,Health & Fitness,MAS-P-0130
+133,Apple Health,https://apps.apple.com/us/app/apple-health/id1242545199,Health & Fitness,MAS-P-0131
+134,Reddit,https://play.google.com/store/apps/details?id=com.reddit.frontpage,Social,MAS-P-0132
+135,Google Maps,https://play.google.com/store/apps/details?id=com.google.android.apps.maps,travel & local,MAS-P-0133
+136,Amazon Prime Video,https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient,Entertainment,MAS-P-0134
+137,USAA Mobile,https://apps.apple.com/us/app/upside-cash-back-on-gas-food/id1099997174,Finance,MAS-P-0135
+138,FanDuel Sportsbook & Casino,https://apps.apple.com/us/app/fanduel-sportsbook-casino/id1413721906,Sports,MAS-P-0136
+139,USAA Mobile,https://apps.apple.com/us/app/usaa-mobile/id312325565,Finance,MAS-P-0137
+140,Duolingo - Language Lessons,https://apps.apple.com/us/app/duolingo-language-lessons/id570060128,education,MAS-P-0138
+141,"Libby, by OverDrive",https://play.google.com/store/apps/details?id=com.overdrive.mobile.android.libby,books & reference,MAS-P-0139
+142,Healthi: Personal Weight Loss,https://apps.apple.com/gh/app/healthi-personal-weight-loss/id404299862,Health & Fitness,MAS-P-0140
+143,Family Dollar,https://play.google.com/store/apps/details?id=com.familydollar&hl=en_US&gl=US,shopping,MAS-P-0141
+144,Calorie Counter - Cronometer,https://play.google.com/store/apps/details?id=com.cronometer.android.gold,Health & Fitness,MAS-P-0142
+145,Facebook,https://play.google.com/store/apps/details?id=com.facebook.katana,Social,MAS-P-0143
+146,Memrise Easy Language Learning,https://apps.apple.com/us/app/memrise-easy-language-learning/id635966718,education,MAS-P-0144
+147,Amcrest View Pro,https://play.google.com/store/apps/details?id=com.mm.android.direct.AmcrestViewPro,tools,MAS-P-0145
+148,TradingView: Track All Markets,https://apps.apple.com/us/app/tradingview-track-all-markets/id1205990992,Finance,MAS-P-0146
+149,Evidation - Reward Health,https://apps.apple.com/us/app/evidation-reward-health/id793039965,Health & Fitness,MAS-P-0147
+150,BURGER KING App,https://play.google.com/store/apps/details?id=com.emn8.mobilem8.nativeapp.bk&hl=en_US&gl=US,food & drink,MAS-P-0148
+151,Google Maps,https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=en_US&gl=US,travel & local,MAS-P-0149
+152,TikTok,https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically&hl=en_US&gl=US,Social,MAS-P-0150
+153,"Discord: Talk, Chat & Hang Out",https://play.google.com/store/apps/details?id=com.discord,communication,MAS-P-0151
+154,Google Maps,https://play.google.com/store/apps/details?id=com.google.android.apps.maps,travel & local,MAS-P-0152
+155,MyFitnessPal: Calorie Counter,https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718,Health & Fitness,MAS-P-0153
+156,MyFitnessPal: Calorie Counter,https://play.google.com/store/apps/details?id=com.myfitnesspal.android,Health & Fitness,MAS-P-0154
+157,Polar Flow,https://apps.apple.com/us/app/polar-flow/id717172678,Health & Fitness,MAS-P-0155
+158,"PayPal - Send, Shop, Manage",https://play.google.com/store/apps/details?id=com.paypal.android.p2pmobile,Finance,MAS-P-0156
+159,MyFitnessPal: Calorie Counter,https://play.google.com/store/apps/details?id=com.myfitnesspal.android,Health & Fitness,MAS-P-0157
+160,Colgate Connect,https://apps.apple.com/us/app/colgate-connect/id1505852279,Health & Fitness,MAS-P-0158
+161,"Discord: Talk, Chat & Hang Out",https://play.google.com/store/apps/details?id=com.discord,communication,MAS-P-0159
+162,McDonald's,https://play.google.com/store/apps/details?id=com.mcdonalds.app,food & drink,MAS-P-0160
+163,Evernote - Note Organizer,https://play.google.com/store/apps/details?id=com.evernote,Productivity,MAS-P-0161
+164,Spotify - Music and Podcasts,https://apps.apple.com/us/app/spotify-music-and-podcasts/id324684580,Music,MAS-P-0162
+165,Fitness,https://apps.apple.com/us/app/fitness/id1208224953,Health & Fitness,MAS-P-0163
+166,"Fetch: Have Fun, Save Money",https://play.google.com/store/apps/details?id=com.fetchrewards.fetchrewards.hop,shopping,MAS-P-0164
+167,MyFitnessPal: Calorie Counter,https://play.google.com/store/apps/details?id=com.myfitnesspal.android,Health & Fitness,MAS-P-0165
+168,Snapchat,https://play.google.com/store/apps/details?id=com.snapchat.android,communication,MAS-P-0166
+169,Jewel-Osco Deals & Delivery,https://play.google.com/store/apps/details?id=com.safeway.client.android.jewelosco,shopping,MAS-P-0167
+170,Twitter,https://play.google.com/store/apps/details?id=com.twitter.android,Social,MAS-P-0168
+171,Twitter,https://play.google.com/store/apps/details?id=com.twitter.android&hl=en_US&gl=US,Social,MAS-P-0169
+172,RecForge Lite - Audio Recorder,https://play.google.com/store/apps/details?id=dje073.android.audiorecorderlite&gl=US,music & audio,MAS-P-0170
+173,Firehouse Subs App,https://play.google.com/store/apps/details?id=com.ak.app.firehouse.activity,Lifestyle,MAS-P-0171
+174,Malwarebytes Mobile Security,https://play.google.com/store/apps/details?id=org.malwarebytes.antimalware,tools,MAS-P-0172
+175,HappyLighting,https://play.google.com/store/apps/details?id=com.xiaoyu.hlight,personalization,MAS-P-0173
+176,Amazon Shopping,https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping,shopping,MAS-P-0174
+177,DoorDash - Food Delivery,https://play.google.com/store/apps/details?id=com.dd.doordash,food & drink,MAS-P-0175
+178,Duolingo: language lessons,https://play.google.com/store/apps/details?id=com.duolingo,education,MAS-P-0176
+179,Snapchat,https://play.google.com/store/apps/details?id=com.snapchat.android&hl=en_US&gl=US,communication,MAS-P-0177
+180,Google Photos,https://play.google.com/store/apps/details?id=com.google.android.apps.photos,Photo & Video,MAS-P-0178
+181,Luxer One,https://play.google.com/store/apps/details?id=com.luxerone.mobile.residentapp,Lifestyle,MAS-P-0179
+182,Weather data & microclimate :,https://play.google.com/store/apps/details?id=com.wunderground.android.weather,weather,MAS-P-0180
+183,Hearthstone,https://apps.apple.com/us/app/hearthstone/id625257520,Games,MAS-P-0181
+184,Fitbit: Health & Fitness,https://apps.apple.com/us/app/fitbit-health-fitness/id462638897,Health & Fitness,MAS-P-0182
+185,Duolingo: language lessons,https://play.google.com/store/apps/details?id=com.duolingo&hl=en_US&gl=US,education,MAS-P-0183
+186,"Strava: Run, Ride, Hike",https://apps.apple.com/us/app/strava-run-ride-hike/id426826309,Health & Fitness,MAS-P-0184
+187,Instagram,https://play.google.com/store/apps/details?id=com.instagram.android,Social,MAS-P-0185
+188,Lyft,https://play.google.com/store/apps/details?id=me.lyft.android,maps & navigation,MAS-P-0186
+189,Fitbit,https://play.google.com/store/apps/details?id=com.fitbit.FitbitMobile,Health & Fitness,MAS-P-0187
+190,Gymaholic Workout Tracker,https://apps.apple.com/us/app/gymaholic-workout-tracker/id648518560,Health & Fitness,MAS-P-0188
+191,MyFitnessPal: Calorie Counter,https://play.google.com/store/apps/details?id=com.myfitnesspal.android,Health & Fitness,MAS-P-0189
+192,Step Counter - Pedometer,https://play.google.com/store/apps/details?id=pedometer.steptracker.calorieburner.stepcounter,Health & Fitness,MAS-P-0190
+193,SoFi: One-Stop-Shop Finances,https://apps.apple.com/us/app/sofi-one-stop-shop-finances/id1191985736,Finance,MAS-P-0191
+194,"YouTube: Watch, Listen, Stream",https://apps.apple.com/us/app/youtube-watch-listen-stream/id544007664,Photo & Video,MAS-P-0192
+195,Pandora - Music & Podcasts,https://play.google.com/store/apps/details?id=com.pandora.android,music & audio,MAS-P-0193
+196,Fidelity Investments,https://play.google.com/store/apps/details?id=com.fidelity.android,Finance,MAS-P-0194
+197,Amazon Alexa,https://play.google.com/store/apps/details?id=com.amazon.dee.app,Lifestyle,MAS-P-0195
+198,GTE Mobile,https://apps.apple.com/us/app/gte-mobile/id1491076268,Finance,MAS-P-0196
+199,"Vudu- Buy, Rent & Watch Movies",https://play.google.com/store/apps/details?id=air.com.vudu.air.DownloaderTablet&hl=en_US&gl=US&pli=1,Entertainment,MAS-P-0197
+200,FINAL FANTASY XIV Companion,https://play.google.com/store/apps/details?id=com.square_enix.android_googleplay.ffxivcomapp_n,tools,MAS-P-0198
+201,Cash App,https://apps.apple.com/us/app/cash-app/id711923939,Finance,MAS-P-0199
+202,Period and Ovulation Tracker,https://play.google.com/store/apps/details?id=com.smsrobot.period,medical,MAS-P-0200
+203,Productive - Habit Tracker,https://apps.apple.com/us/app/productive-habit-tracker/id983826477,Productivity,MAS-P-0201
+204,"Strava: Run, Ride, Hike",https://apps.apple.com/us/app/strava-run-ride-hike/id426826309,Health & Fitness,MAS-P-0202
+205,Fitness,https://apps.apple.com/us/app/fitness/id1208224953,Health & Fitness,MAS-P-0203
+206,MyFitnessPal: Calorie Counter,https://play.google.com/store/apps/details?id=com.myfitnesspal.android,Health & Fitness,MAS-P-0204
+207,"PayPal - Send, Shop, Manage",https://apps.apple.com/us/app/paypal-send-shop-manage/id283646709,Finance,MAS-P-0205
+208,AudioLab Audio Editor Recorder,https://play.google.com/store/apps/details?id=com.hitrolab.audioeditor,music & audio,MAS-P-0206
+209,YouTube TV: Live TV & more,https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.unplugged,Entertainment,MAS-P-0207
+210,Ibotta: Save & Earn Cash Back,https://play.google.com/store/apps/details?id=com.ibotta.android,shopping,MAS-P-0208
+211,MyFitnessPal: Calorie Counter,https://play.google.com/store/apps/details?id=com.myfitnesspal.android,Health & Fitness,MAS-P-0209
+212,Speedtest by Ookla,https://apps.apple.com/us/app/speedtest-by-ookla/id300704847,Utilities,MAS-P-0210
+213,Airbnb,https://play.google.com/store/apps/details?id=com.airbnb.android&hl=en&referrer=bev%3D1660322286_OTVkNDM0YWMyYjI2%26utm_medium%3Dweb%26utm_source%3Dairbnb,travel & local,MAS-P-0211
+214,Ally: Banking & Investing,https://play.google.com/store/apps/details?id=com.ally.MobileBanking,Finance,MAS-P-0212
+215,Did I Take My Meds?,https://play.google.com/store/apps/details?id=dev.corruptedark.diditakemymeds,Health & Fitness,MAS-P-0213
+216,"FUT 23 Draft, Builder - FUTBIN",https://apps.apple.com/us/app/futbin/id1080465358,Sports,MAS-P-0214
+217,Screen Recorder - AZ Recorder,https://play.google.com/store/apps/details?id=com.hecorat.screenrecorder.free,video players & editors,MAS-P-0215
+218,Cake Wallet,https://apps.apple.com/us/app/cake-wallet/id1334702542,Finance,MAS-P-0216
+219,Instagram,https://play.google.com/store/apps/details?id=com.instagram.android,Social,MAS-P-0217
+220,Google Fit: Activity Tracking,https://play.google.com/store/apps/details?id=com.google.android.apps.fitness,Health & Fitness,MAS-P-0218
+221,Chai - Chat with AI Friends,https://play.google.com/store/apps/details?id=com.Beauchamp.Messenger.external,Entertainment,MAS-P-0219
+222,Fitness,https://apps.apple.com/us/app/fitness/id1208224953,Health & Fitness,MAS-P-0220
+223,Lumosity: Brain Training,https://play.google.com/store/apps/details?id=com.lumoslabs.lumosity,education,MAS-P-0221
+224,The Home Depot,https://play.google.com/store/apps/details?id=com.thehomedepot,shopping,MAS-P-0222
+225,Google Fit: Activity Tracking,https://play.google.com/store/apps/details?id=com.google.android.apps.fitness,Health & Fitness,MAS-P-0223
+226,Rally,https://play.google.com/store/apps/details?id=com.rally.wellness,Health & Fitness,MAS-P-0224
+227,HealthifyMe – Calorie Counter,https://play.google.com/store/apps/details?id=com.healthifyme.basic,Health & Fitness,MAS-P-0225
+228,MyFitnessPal: Calorie Counter,https://play.google.com/store/apps/details?id=com.myfitnesspal.android&hl=en,Health & Fitness,MAS-P-0226
+229,"PayPal - Send, Shop, Manage",https://apps.apple.com/us/app/paypal-send-shop-manage/id283646709,Finance,MAS-P-0227
+230,Fitness,https://apps.apple.com/us/app/fitness/id1208224953,Health & Fitness,MAS-P-0228
+231,Amazon Shopping,https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping,shopping,MAS-P-0229
+232,Instacart-Get groceries today,https://play.google.com/store/apps/details?id=com.instacart.client,food & drink,MAS-P-0230
+233,Yuka - Food & cosmetic scan,https://play.google.com/store/apps/details?id=io.yuka.android,Health & Fitness,MAS-P-0231
+234,Strong Workout Tracker Gym Log,https://play.google.com/store/apps/details?id=io.strongapp.strong,Health & Fitness,MAS-P-0232
+235,Reddit,https://play.google.com/store/apps/details?id=com.reddit.frontpage&hl=en&gl=US&pli=1,Social,MAS-P-0233
+236,SONIC Drive-In - Order Online,https://play.google.com/store/apps/details?id=com.sonic.sonicdrivein,food & drink,MAS-P-0234
+237,Tabata Timer for HIIT,https://play.google.com/store/apps/details?id=com.simplevision.workout.tabata&hl=en_US&gl=US,Health & Fitness,MAS-P-0235
+238,DoorDash - Food Delivery,https://play.google.com/store/apps/details?id=com.dd.doordash,food & drink,MAS-P-0236
+239,TikTok,https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically,Social,MAS-P-0237
+240,Facebook,https://play.google.com/store/apps/details?id=com.facebook.katana,Social,MAS-P-0238
+241,Zaxby's,https://apps.apple.com/us/app/zaxbys-fingers-wings/id480603264,food & drink,MAS-P-0239
+242,PrizePicks - DFS Game,https://play.google.com/store/apps/details?id=com.myprizepicks.myprizepicks&hl=en_US&gl=US&pli=1,Sports,MAS-P-0240
+243,Amazon Alexa,https://apps.apple.com/us/app/amazon-alexa/id944011620,Lifestyle,MAS-P-0241
+244,TikTok,https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically,Social,MAS-P-0242
+245,Fitness,https://apps.apple.com/us/app/fitness/id1208224953,Health & Fitness,MAS-P-0243
+246,Robinhood: Investing for All,https://apps.apple.com/us/app/robinhood-investing-for-all/id938003185,Finance,MAS-P-0244
+247,Fitness,https://apps.apple.com/us/app/fitness/id1208224953,Health & Fitness,MAS-P-0245
+248,Instacart-Get groceries today,https://play.google.com/store/apps/details?id=com.instacart.client,food & drink,MAS-P-0246
+249,"Strava: Run, Ride, Hike",https://play.google.com/store/apps/details?id=com.strava&hl=en_US&gl=US&pli=1,Health & Fitness,MAS-P-0247
+250,Fitness,https://apps.apple.com/us/app/fitness/id1208224953,Health & Fitness,MAS-P-0248
+251,Screen Recorder - AZ Recorder,https://play.google.com/store/apps/details?id=com.hecorat.screenrecorder.free,video players & editors,MAS-P-0249
+252,Xbox,https://play.google.com/store/apps/details?id=com.microsoft.xboxone.smartglass,entertainment,MAS-P-0250
+253,Twitch: Live Game Streaming,https://play.google.com/store/apps/details?id=tv.twitch.android.app,Entertainment,MAS-P-0251
+254,Pocket Casts - Podcast Player,https://play.google.com/store/apps/details?id=au.com.shiftyjelly.pocketcasts,news & magazines,MAS-P-0252
+255,TextNow: Call + Text Unlimited,https://play.google.com/store/apps/details?id=com.enflick.android.TextNow,communication,MAS-P-0253
+256,YouTube,https://play.google.com/store/apps/details?id=com.google.android.youtube,video players & editors,MAS-P-0254
+257,Pogo: Earn on Everything,https://apps.apple.com/us/app/pogo-earn-on-everything/id1509325230,shopping,MAS-P-0255
+258,MyFitnessPal: Calorie Counter,https://play.google.com/store/apps/details?id=com.myfitnesspal.android,Health & Fitness,MAS-P-0256
+259,WhatsApp Messenger,https://play.google.com/store/apps/details?id=com.whatsapp,communication,MAS-P-0257
+260,Waze Navigation & Live Traffic,https://play.google.com/store/apps/details?id=com.waze&hl=en_US&gl=US,maps & navigation,MAS-P-0258
+261,Peloton: Fitness & Workouts,https://apps.apple.com/us/app/peloton-fitness-workouts/id792750948,Health & Fitness,MAS-P-0259
+262,MyFitnessPal: Calorie Counter,https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718,Health & Fitness,MAS-P-0260
+263,Pokémon GO,https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345,Games,MAS-P-0261
+264,Evidation - Reward Health,https://apps.apple.com/us/app/evidation-reward-health/id793039965,Health & Fitness,MAS-P-0262
+265,MyFitnessPal: Calorie Counter,https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718,Health & Fitness,MAS-P-0263
+266,MyFitnessPal: Calorie Counter,https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718,Health & Fitness,MAS-P-0264
+267,Pocket Casts - Podcast Player,https://play.google.com/store/apps/details?id=au.com.shiftyjelly.pocketcasts,news & magazines,MAS-P-0265
+268,Temu,https://play.google.com/store/apps/details?id=com.einnovation.temu,shopping,MAS-P-0266
+269,Google Maps,https://play.google.com/store/apps/details?id=com.google.android.apps.maps,travel & local,MAS-P-0267
+270,USAA Mobile,https://apps.apple.com/us/app/usaa-mobile/id312325565,Finance,MAS-P-0268
+271,Samsung Health,https://play.google.com/store/apps/details?id=com.sec.android.app.shealth&hl=en_US&gl=US,Health & Fitness,MAS-P-0269
+272,Fitbit,https://play.google.com/store/apps/details?id=com.fitbit.FitbitMobile,Health & Fitness,MAS-P-0270
+273,MyFitnessPal: Calorie Counter,https://play.google.com/store/apps/details?id=com.myfitnesspal.android,Health & Fitness,MAS-P-0271
+274,DraftKings Sportsbook & Casino,https://play.google.com/store/apps/details?id=com.draftkings.sportsbook,Sports,MAS-P-0272
+275,Fitbit: Health & Fitness,https://apps.apple.com/us/app/fitbit-health-fitness/id462638897,Health & Fitness,MAS-P-0273
+276,MyFitnessPal: Calorie Counter,https://play.google.com/store/apps/details?id=com.myfitnesspal.android,Health & Fitness,MAS-P-0274
+277,"Discord: Talk, Chat & Hang Out",https://play.google.com/store/apps/details?id=com.discord&hl=en_US&gl=US,communication,MAS-P-0275
+278,Calorie Counter by Lose It!,https://play.google.com/store/apps/details?id=com.fitnow.loseit,Health & Fitness,MAS-P-0276
+279,Apple Research,https://apps.apple.com/us/app/apple-research/id1463884356,Health & Fitness,MAS-P-0277
+280,WhatsApp Messenger,https://apps.apple.com/us/app/whatsapp-messenger/id310633997,Social Networking,MAS-P-0278
+281,Tinder: Dating app. Meet. Chat,https://play.google.com/store/apps/details?id=com.tinder,dating,MAS-P-0279
+282,StoryGraph: Reading Tracker,https://apps.apple.com/us/app/storygraph-reading-tracker/id1570489264,books,MAS-P-0280
+283,MyFitnessPal: Calorie Counter,https://play.google.com/store/apps/details?id=com.myfitnesspal.android,Health & Fitness,MAS-P-0281
+284,"Spotify: Music, Podcasts, Lit",https://play.google.com/store/apps/details?id=com.spotify.music&hl=en_US&gl=US,music & audio,MAS-P-0282
+285,Twitter,https://play.google.com/store/apps/details?id=com.twitter.android,Social,MAS-P-0283
+286,Venmo,https://play.google.com/store/apps/details?id=com.venmo&hl=en_US&gl=US,Finance,MAS-P-0284
+287,Steam Mobile,https://apps.apple.com/us/app/steam-mobile/id495369748,Entertainment,MAS-P-0285
+288,one sec—delay distracting apps,https://apps.apple.com/us/app/one-sec-limit-screen-time/id1532875441,Productivity,MAS-P-0286
+289,Twitter,https://play.google.com/store/apps/details?id=com.twitter.android,Social,MAS-P-0287
+290,WhatsApp Messenger,https://play.google.com/store/apps/details?id=com.whatsapp&hl=en_US&gl=US&pli=1,communication,MAS-P-0288
+291,YouTube Music,https://apps.apple.com/us/app/youtube-music/id1017492454,Music,MAS-P-0289
+292,Twitter,https://play.google.com/store/apps/details?id=com.twitter.android,Social,MAS-P-0290
+293,Instagram,https://apps.apple.com/us/app/instagram/id389801252,Photo & Video,MAS-P-0291
+294,DraftKings Fantasy Sports,https://apps.apple.com/us/app/draftkings-fantasy-sports/id710535379,Sports,MAS-P-0292
+295,Instagram,https://play.google.com/store/apps/details?id=com.instagram.android&hl=en_US&gl=US,Social,MAS-P-0293
+296,StepsApp Pedometer,https://apps.apple.com/us/app/stepsapp-pedometer/id1037595083,Health & Fitness,MAS-P-0294
+297,Instagram,https://play.google.com/store/apps/details?id=com.instagram.android,Social,MAS-P-0295
+298,Google Opinion Rewards,https://play.google.com/store/apps/details?id=com.google.android.apps.paidtasks,tools,MAS-P-0296
+299,TikTok,https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically,Social,MAS-P-0297
+300,Twitter,https://play.google.com/store/apps/details?id=com.twitter.android&hl=en_US&gl=US&pli=1,Social,MAS-P-0298
+301,McDonald's,https://apps.apple.com/us/app/mcdonalds/id922103212,food & drink,MAS-P-0299
+302,Instagram,https://play.google.com/store/apps/details?id=com.instagram.android,Social,MAS-P-0300
