@@ -1,0 +1,193 @@
+
+
+<style>
+  .question {
+      
+  }
+  span.label {
+      background-color: yellow;
+      color: black;
+      padding: 3px;
+  }
+  .scale-container {
+      display: flex;
+      justify-content: center;
+  }
+  .scale {
+      display: grid;
+      grid-template-columns: repeat(6, 40px 15px 15px 40px);
+      gap: 0px;
+  }
+  .scale div.vbar {
+      border-left: 1px solid black;
+  }
+  .scale div.hbar {
+      border-bottom: 1px solid black;
+  }
+  .scale .choice {
+      grid-column-end: span 2;
+      grid-row-end: span 2;
+      padding: 1px 0;
+      text-align: center;
+  }
+  .scale_label {
+      grid-column-end: span 4;
+      padding: 5px 0;
+      text-align: center;
+  }
+</style>
+
+<input type="hidden" name="scenario_id" value="{scenario_id}">
+
+<p>PLEASE READ: Below, we present one user-authored scenario about the <b>{{app_name}}</b> mobile app and ask you to rate how willing you are to share an information type described in the app with third parties for any purpose. You are not expected to be familiar with this app to complete this survey. Please answer the following questions.</p>
+
+<p>1. In the past year, how frequently did you use this mobile app?</p>
+  <input type="radio" name="usage_freq" value="daily"> More than once a day<br />
+  <input type="radio" name="usage_freq" value="weekly"> Once or more a week<br />
+  <input type="radio" name="usage_freq" value="monthly"> Once a month<br />
+  <input type="radio" name="usage_freq" value="yearly"> A few times in the year<br />
+  <input type="radio" name="usage_freq" value="never"> I did not use this app in the last year<br /><br />
+
+<div id="template" style="display:none;">
+  <br />
+  <input type="hidden" id="part3_infoN" name="part3_infoN" value="" />
+  <input type="hidden" id="part3_infoN_loc" name="part3_infoN_loc" value="" />
+  <p id="questionN" align="center">
+    How willing are you to share information about <b id="infotype"></b> with a third-party for any purpose?<br />
+    <input type="checkbox" id="part3_false_posN" name="part3_false_posN" value="1" /> Check here, if this is not an informatio type.
+  </p>
+        
+  <div class="scale-container">
+    <div class="scale">
+      <div></div>
+      <div class="choice">
+        <input type="radio" id="part3_riskN0" name="part3_riskN0" value="0" />
+      </div>
+      <div class="hbar"></div>
+      <div class="hbar"></div>
+      <div class="choice">
+        <input type="radio" id="part3_riskN1" name="part3_riskN1" value="1" />
+      </div>
+      <div class="hbar"></div>
+      <div class="hbar"></div>
+      <div class="choice">
+        <input type="radio" id="part3_riskN2" name="part3_riskN2" value="2" />
+      </div>
+      <div class="hbar"></div>
+      <div class="hbar"></div>
+      <div class="choice">
+        <input type="radio" id="part3_riskN3" name="part3_riskN3" value="3" />
+      </div>
+      <div class="hbar"></div>
+      <div class="hbar"></div>
+      <div class="choice">
+        <input type="radio" id="part3_riskN4" name="part3_riskN4" value="4" />
+      </div>
+      <div class="hbar"></div>
+      <div class="hbar"></div>
+      <div class="choice">
+        <input type="radio" id="part3_riskN5" name="part3_riskN5" value="5" />
+      </div>
+      <div></div>
+      
+      <div></div><div></div>
+      <div></div><div></div>
+      <div></div><div></div>
+      <div></div><div></div>
+      <div></div><div></div>
+      <div></div><div></div>
+
+      <div class="scale_label">
+        Very<br/>Willing
+      </div>
+      <div class="scale_label">
+        Willing
+      </div>
+      <div class="scale_label">
+        Somewhat<br/>Willing
+      </div>
+      <div class="scale_label">
+        Somewhat<br/>Unwilling
+      </div>
+      <div class="scale_label">
+        Unwilling
+      </div>
+      <div class="scale_label">
+        Very<br/>Unwilling
+      </div>
+    </div>
+  </div>
+  <br />
+</div>
+
+
+<script>
+  //var text = '{scenario_test}';
+  //var locs = '{infotypes}'.split(',');
+  var text = 'I use this screen to talk with my friend on Skype from the phone. I type messages to him and as long as be both have internet it is sent to him. We can also send audio messages or images to each other from this screen as well. Finally, we can perform voice calls and talk to each other on the microphone. I\'m not sure if it\'s possible to do a video call from Skype mobile, I\'ve never tried it. I also use the desktop version of this app and it has far more personal information than the mobile version. It\'s also got all my chat messages, though I don\'t consider any of the messages on this screen personal enough to redact, but all of it together would be personal information I would not want sent out to the web or to a third party without my authorization. I should also point out that the photo is not real, but were it real that would also be more personal information of both mine and my friends.';
+  var locs = '34:40,73:81,162:176,180:186,251:262,293:303,343:353,524:537,794:799,854:874,883:887,895:902'.split(',');
+  
+  var divSurvey = document.getElementById('survey');
+  
+  for (var i = 0; i < locs.length; i++) {
+      var divQuestion = document.createElement('div');
+      divQuestion.setAttribute('class', 'question');
+
+      // split the infotype start and end indices
+      var index = locs[i].split(':');
+
+      // create next scenario with infotype highlight
+      var divScenario = document.createElement('div');
+      divScenario.innerHTML = text.substring(0, index[0]) + '<span class="label">' + text.substring(index[0], index[1]) + '</span>' + text.substring(index[1]);
+      divQuestion.appendChild(divScenario);
+      
+      // instantiate question scale
+      var template = document.getElementById('template');
+      var divScale = template.cloneNode(true);
+      divScale.setAttribute('style', 'display:blank;');
+      
+      var element;
+      element = divScale.querySelector('#questionN');
+      element.setAttribute('id', 'question' + i);
+      element.innerHTML = "" + (i+2) + ". " + element.innerHTML;
+      
+      element = divScale.querySelector('#infotype');
+      element.innerHTML = text.substring(index[0], index[1]);
+      
+      element = divScale.querySelector('#part3_infoN');
+      element.setAttribute('id', 'part3_info' + i);
+      element.setAttribute('name', 'part3_info' + i);
+      element.setAttribute('value', text.substring(index[0], index[1]));
+      element = divScale.querySelector('#part3_infoN_loc');
+      element.setAttribute('id', 'part3_info' + i + '_loc');
+      element.setAttribute('name', 'part3_info' + i + '_loc');
+      element.setAttribute('value', locs[i]);
+      element = divScale.querySelector('#part3_false_posN');
+      element.setAttribute('id', 'part3_false_pos' + i);
+      element.setAttribute('name', 'part3_false_pos' + i);
+
+      element = divScale.querySelector('#part3_riskN0');
+      element.setAttribute('id', 'part3_risk' + i + '_1');
+      element.setAttribute('name', 'part3_risk' + i);
+      element = divScale.querySelector('#part3_riskN1');
+      element.setAttribute('id', 'part3_risk' + i + '_1');
+      element.setAttribute('name', 'part3_risk' + i);
+      element = divScale.querySelector('#part3_riskN2');
+      element.setAttribute('id', 'part3_risk' + i + '_1');
+      element.setAttribute('name', 'part3_risk' + i);
+      element = divScale.querySelector('#part3_riskN3');
+      element.setAttribute('id', 'part3_risk' + i + '_1');
+      element.setAttribute('name', 'part3_risk' + i);
+      element = divScale.querySelector('#part3_riskN4');
+      element.setAttribute('id', 'part3_risk' + i + '_1');
+      element.setAttribute('name', 'part3_risk' + i);
+      element = divScale.querySelector('#part3_riskN5');
+      element.setAttribute('id', 'part3_risk' + i + '_1');
+      element.setAttribute('name', 'part3_risk' + i);
+
+      divQuestion.appendChild(divScale);
+      document.body.appendChild(divQuestion);
+   }
+
+  
+</script>
