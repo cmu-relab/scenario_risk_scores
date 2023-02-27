@@ -1,8 +1,6 @@
-
-
-<style>
-  .question {
-      
+<style type="text/css">.question {
+        margin: auto;
+  	width: 80%;
   }
   span.label {
       background-color: yellow;
@@ -36,96 +34,110 @@
       text-align: center;
   }
 </style>
+<p><input name="scenario_id" type="hidden" value="{scenario_id}" /></p>
 
-<input type="hidden" name="scenario_id" value="{scenario_id}">
+<p><b>PLEASE READ:</b> Below, we present a user-authored scenario about the <a href="${app_url}"><b>${app_name}</b></a> mobile app and ask you to rate <b>how willing you are to share an information type described in the app with third parties for any purpose</b>. You are not expected to be familiar with this app to complete this survey. Please answer the following questions.</p>
 
-<p>PLEASE READ: Below, we present one user-authored scenario about the <b>{{app_name}}</b> mobile app and ask you to rate how willing you are to share an information type described in the app with third parties for any purpose. You are not expected to be familiar with this app to complete this survey. Please answer the following questions.</p>
+<p>1. In the past year, how frequently did you use the <b>${app_name} mobile app</b>?</p>
 
-<p>1. In the past year, how frequently did you use this mobile app?</p>
-  <input type="radio" name="usage_freq" value="daily"> More than once a day<br />
-  <input type="radio" name="usage_freq" value="weekly"> Once or more a week<br />
-  <input type="radio" name="usage_freq" value="monthly"> Once a month<br />
-  <input type="radio" name="usage_freq" value="yearly"> A few times in the year<br />
-  <input type="radio" name="usage_freq" value="never"> I did not use this app in the last year<br /><br />
+<p><input name="usage_freq" type="radio" value="daily" /> More than once a day<br />
+<input name="usage_freq" type="radio" value="weekly" /> Once or more a week<br />
+<input name="usage_freq" type="radio" value="monthly" /> Once a month<br />
+<input name="usage_freq" type="radio" value="yearly" /> A few times in the year<br />
+<input name="usage_freq" type="radio" value="never" /> I did not use this app in the last year</p>
 
-<div id="template" style="display:none;">
-  <br />
-  <input type="hidden" id="part3_infoN" name="part3_infoN" value="" />
-  <input type="hidden" id="part3_infoN_loc" name="part3_infoN_loc" value="" />
-  <p id="questionN" align="center">
-    How willing are you to share information about <b id="infotype"></b> with a third-party for any purpose?<br />
-    <input type="checkbox" id="part3_false_posN" name="part3_false_posN" value="1" /> Check here, if this is not an informatio type.
-  </p>
-        
-  <div class="scale-container">
-    <div class="scale">
-      <div></div>
-      <div class="choice">
-        <input type="radio" id="part3_riskN0" name="part3_riskN0" value="0" />
-      </div>
-      <div class="hbar"></div>
-      <div class="hbar"></div>
-      <div class="choice">
-        <input type="radio" id="part3_riskN1" name="part3_riskN1" value="1" />
-      </div>
-      <div class="hbar"></div>
-      <div class="hbar"></div>
-      <div class="choice">
-        <input type="radio" id="part3_riskN2" name="part3_riskN2" value="2" />
-      </div>
-      <div class="hbar"></div>
-      <div class="hbar"></div>
-      <div class="choice">
-        <input type="radio" id="part3_riskN3" name="part3_riskN3" value="3" />
-      </div>
-      <div class="hbar"></div>
-      <div class="hbar"></div>
-      <div class="choice">
-        <input type="radio" id="part3_riskN4" name="part3_riskN4" value="4" />
-      </div>
-      <div class="hbar"></div>
-      <div class="hbar"></div>
-      <div class="choice">
-        <input type="radio" id="part3_riskN5" name="part3_riskN5" value="5" />
-      </div>
-      <div></div>
-      
-      <div></div><div></div>
-      <div></div><div></div>
-      <div></div><div></div>
-      <div></div><div></div>
-      <div></div><div></div>
-      <div></div><div></div>
+<div id="template" style="display:none;"><br />
+  <input id="part3_infoN" name="part3_infoN" type="hidden" value="" /> <input id="part3_infoN_loc" name="part3_infoN_loc" type="hidden" value="" />
+<p align="center" id="questionN">How willing are you to share information about <span id="infotype" style="font-weight: bold;"></span> with a third-party for any purpose?<br />
+<input id="part3_false_posN" name="part3_false_posN" type="checkbox" value="1" /> Check here, if this is not an information type.</span></span></p>
 
-      <div class="scale_label">
-        Very<br/>Willing
-      </div>
-      <div class="scale_label">
-        Willing
-      </div>
-      <div class="scale_label">
-        Somewhat<br/>Willing
-      </div>
-      <div class="scale_label">
-        Somewhat<br/>Unwilling
-      </div>
-      <div class="scale_label">
-        Unwilling
-      </div>
-      <div class="scale_label">
-        Very<br/>Unwilling
-      </div>
-    </div>
-  </div>
-  <br />
+<div class="scale-container">
+<div class="scale">
+<div>&nbsp;</div>
+
+<div class="choice"><input id="part3_riskN0" name="part3_riskN0" type="radio" value="0" /></div>
+
+<div class="hbar">&nbsp;</div>
+
+<div class="hbar">&nbsp;</div>
+
+<div class="choice"><input id="part3_riskN1" name="part3_riskN1" type="radio" value="1" /></div>
+
+<div class="hbar">&nbsp;</div>
+
+<div class="hbar">&nbsp;</div>
+
+<div class="choice"><input id="part3_riskN2" name="part3_riskN2" type="radio" value="2" /></div>
+
+<div class="hbar">&nbsp;</div>
+
+<div class="hbar">&nbsp;</div>
+
+<div class="choice"><input id="part3_riskN3" name="part3_riskN3" type="radio" value="3" /></div>
+
+<div class="hbar">&nbsp;</div>
+
+<div class="hbar">&nbsp;</div>
+
+<div class="choice"><input id="part3_riskN4" name="part3_riskN4" type="radio" value="4" /></div>
+
+<div class="hbar">&nbsp;</div>
+
+<div class="hbar">&nbsp;</div>
+
+<div class="choice"><input id="part3_riskN5" name="part3_riskN5" type="radio" value="5" /></div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div class="scale_label">Very<br />
+Willing</div>
+
+<div class="scale_label">Willing</div>
+
+<div class="scale_label">Somewhat<br />
+Willing</div>
+
+<div class="scale_label">Somewhat<br />
+Unwilling</div>
+
+<div class="scale_label">Unwilling</div>
+
+<div class="scale_label">Very<br />
+Unwilling</div>
 </div>
-
-
+</div>
+<p>&nbsp;</p>
+</div>
 <script>
-  //var text = '{scenario_test}';
-  //var locs = '{infotypes}'.split(',');
-  var text = 'I use this screen to talk with my friend on Skype from the phone. I type messages to him and as long as be both have internet it is sent to him. We can also send audio messages or images to each other from this screen as well. Finally, we can perform voice calls and talk to each other on the microphone. I\'m not sure if it\'s possible to do a video call from Skype mobile, I\'ve never tried it. I also use the desktop version of this app and it has far more personal information than the mobile version. It\'s also got all my chat messages, though I don\'t consider any of the messages on this screen personal enough to redact, but all of it together would be personal information I would not want sent out to the web or to a third party without my authorization. I should also point out that the photo is not real, but were it real that would also be more personal information of both mine and my friends.';
-  var locs = '34:40,73:81,162:176,180:186,251:262,293:303,343:353,524:537,794:799,854:874,883:887,895:902'.split(',');
+  var text = '${scenario_text}';
+  var locs = '${infotypes}'.split(',');
+
+  var text = 'The Netflix history view screen helps me to better understand and manage my movie and TV show viewing habits. I use this screen to track what I watch, when I watched it, and how often I watch something. By taking a look at the history view screen, I can make more informed decisions on what I watch next. I can access the history view screen by clicking on a link in my profile or by selecting the "Viewing Activity" tab. From there, I am able to view a list of my past and current viewing activity. I can also sort my list by title, category, or date. Additionally, I can use the search feature to quickly locate a show or movie that I recently watched. The information used by the app to power the history view screen includes the titles of movies and shows that I have watched, when I watched them, and how many times I have watched them. Additionally, the app also records the date of the last time I watched a show or movie, so I can easily tell when I last watched something. By using the history view screen, I am able to keep track of the shows I have watched and better manage my viewing habits. This screen helps me to make more informed decisions';
+  var locs = '4:11,86:108,137:149,151:168,174:201,286:303,322:334,370:377,407:415,454:489,490:498,519:523,527:532,534:542,547:551,581:595,616:620,624:629,630:653,700:707,733:739,743:749,760:779,806:840,877:928,951:980,1047:1052,1089:1103'.split(',');
   
   var divSurvey = document.getElementById('survey');
   
@@ -138,7 +150,7 @@
 
       // create next scenario with infotype highlight
       var divScenario = document.createElement('div');
-      divScenario.innerHTML = text.substring(0, index[0]) + '<span class="label">' + text.substring(index[0], index[1]) + '</span>' + text.substring(index[1]);
+      divScenario.innerHTML = '<b>Scenario:</b> ' + text.substring(0, index[0]) + '<span class="label">' + text.substring(index[0], index[1]) + '</span>' + text.substring(index[1]);
       divQuestion.appendChild(divScenario);
       
       // instantiate question scale
@@ -165,7 +177,7 @@
       element = divScale.querySelector('#part3_false_posN');
       element.setAttribute('id', 'part3_false_pos' + i);
       element.setAttribute('name', 'part3_false_pos' + i);
-
+      
       element = divScale.querySelector('#part3_riskN0');
       element.setAttribute('id', 'part3_risk' + i + '_1');
       element.setAttribute('name', 'part3_risk' + i);
@@ -183,11 +195,12 @@
       element.setAttribute('name', 'part3_risk' + i);
       element = divScale.querySelector('#part3_riskN5');
       element.setAttribute('id', 'part3_risk' + i + '_1');
-      element.setAttribute('name', 'part3_risk' + i);
 
       divQuestion.appendChild(divScale);
       document.body.appendChild(divQuestion);
    }
-
-  
 </script>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
