@@ -34,7 +34,7 @@
       text-align: center;
   }
 </style>
-<p><input name="scenario_id" type="hidden" value="{scenario_id}" /></p>
+<p><input name="scenario_id" type="hidden" value="${scenario_id}" /><input id="risk_scores" name="risk_scores" type="hidden" value="${risk_scores}" /></p>
 
 <p><b>PLEASE READ:</b> Below, we present a user-authored scenario about the <a href="${app_url}"><b>${app_name}</b></a> mobile app and ask you to rate <b>how willing you are to share an information type described in the app with third parties for any purpose</b>. You are not expected to be familiar with this app to complete this survey. Please answer the following questions.</p>
 
@@ -46,10 +46,11 @@
 <input name="usage_freq" type="radio" value="yearly" /> A few times in the year<br />
 <input name="usage_freq" type="radio" value="never" /> I did not use this app in the last year</p>
 
-<div id="template" style="display:none;"><br />
-  <input id="part3_infoN" name="part3_infoN" type="hidden" value="" /> <input id="part3_infoN_loc" name="part3_infoN_loc" type="hidden" value="" />
-<p align="center" id="questionN">How willing are you to share information about <span id="infotype" style="font-weight: bold;"></span> with a third-party for any purpose?<br />
-<input id="part3_false_posN" name="part3_false_posN" type="checkbox" value="1" /> Check here, if this is not an information type.</span></span></p>
+<div id="survey">&nbsp;</div>
+
+<div id="template" style="display:none;">
+<p align="center" id="questionN">How willing are you to share information about <span id="infotype" style="font-weight: bold;">&nbsp;</span> with a third-party for any purpose?<br />
+<input id="part3_false_posN" name="part3_false_posN" type="checkbox" value="1" /> Check here, if this is not an information type.</p>
 
 <div class="scale-container">
 <div class="scale">
@@ -130,9 +131,16 @@ Unwilling</div>
 Unwilling</div>
 </div>
 </div>
-<p>&nbsp;</p>
 </div>
+
 <script>
+
+  function updateScores(i, score) {
+      var scores = document.getElementById('risk_scores').value.split(',');
+      scores[i] = score;
+      document.getElementById('risk_scores').value = scores.join(',');
+  }
+  
   var text = '${scenario_text}';
   var locs = '${infotypes}'.split(',');
 
@@ -166,39 +174,44 @@ Unwilling</div>
       element = divScale.querySelector('#infotype');
       element.innerHTML = text.substring(index[0], index[1]);
       
-      element = divScale.querySelector('#part3_infoN');
-      element.setAttribute('id', 'part3_info' + i);
-      element.setAttribute('name', 'part3_info' + i);
-      element.setAttribute('value', text.substring(index[0], index[1]));
-      element = divScale.querySelector('#part3_infoN_loc');
-      element.setAttribute('id', 'part3_info' + i + '_loc');
-      element.setAttribute('name', 'part3_info' + i + '_loc');
-      element.setAttribute('value', locs[i]);
       element = divScale.querySelector('#part3_false_posN');
       element.setAttribute('id', 'part3_false_pos' + i);
       element.setAttribute('name', 'part3_false_pos' + i);
+      //element.addEventListener('click', updateScores(i, 'F'));
       
       element = divScale.querySelector('#part3_riskN0');
-      element.setAttribute('id', 'part3_risk' + i + '_1');
+      element.setAttribute('id', 'part3_risk' + i + '_0');
       element.setAttribute('name', 'part3_risk' + i);
+      //element.addEventListener('click', updateScores(i, '0'));
+      
       element = divScale.querySelector('#part3_riskN1');
       element.setAttribute('id', 'part3_risk' + i + '_1');
       element.setAttribute('name', 'part3_risk' + i);
+      //element.addEventListener('click', updateScores(i, '1'));
+      
       element = divScale.querySelector('#part3_riskN2');
-      element.setAttribute('id', 'part3_risk' + i + '_1');
+      element.setAttribute('id', 'part3_risk' + i + '_2');
       element.setAttribute('name', 'part3_risk' + i);
+      //element.addEventListener('click', updateScores(i, '2'));
+      
       element = divScale.querySelector('#part3_riskN3');
-      element.setAttribute('id', 'part3_risk' + i + '_1');
+      element.setAttribute('id', 'part3_risk' + i + '_3');
       element.setAttribute('name', 'part3_risk' + i);
+      //element.addEventListener('click', updateScores(i, '3'));
+      
       element = divScale.querySelector('#part3_riskN4');
-      element.setAttribute('id', 'part3_risk' + i + '_1');
+      element.setAttribute('id', 'part3_risk' + i + '_4');
       element.setAttribute('name', 'part3_risk' + i);
+      //element.addEventListener('click', updateScores(i, '4'));
+      
       element = divScale.querySelector('#part3_riskN5');
-      element.setAttribute('id', 'part3_risk' + i + '_1');
-
+      element.setAttribute('id', 'part3_risk' + i + '_5');
+      element.setAttribute('name', 'part3_risk' + i);
+      //element.addEventListener('click', updateScores(i, '5'));
+      
       divQuestion.appendChild(divScale);
-      document.body.appendChild(divQuestion);
-   }
+      divSurvey.appendChild(divQuestion);
+   }  
 </script>
 
 <p>&nbsp;</p>
