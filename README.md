@@ -24,7 +24,8 @@ The datasets/ folder contains the datasets used for training and evaluation of t
 
 **Notebooks**
 
-* Scenario Label Preprocessing - used to generate the scenarios-training-X.json files for X in [0, 9] from the scenarios-labeled.json data.
+* Scenario-Level Dataset Preparation - used to split the scenarios-labeled.json data into train, validate and test sets to yield the the scenarios-training-X.json files for X in [0, 9].
+* Sentence-Level Dataset Preparation - used to split the scenarios-labeled.json data into train, validate and test sets to yield the the sentences-training.json file.
 * Prediction Post-Processing - investigates the use of post-processing to improve overall precision by removing false positives from the NER model prediction output.
 * Summary of Authored Scenarios - used to summarize the data in the scenarios-labeled.json file.
 * Summary of Risk Survey Results - used to summarize the data in the scenarios-risked.json file.
