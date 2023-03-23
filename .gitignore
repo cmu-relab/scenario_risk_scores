@@ -5,3 +5,5 @@ __pycache__/*
 models/bert-finetuned-ner/
 
 models/wandb/
+
+models/crf.model
