@@ -4,7 +4,7 @@ This replication package includes datasets and Jupyter Notebooks required to rep
 
 For additional detail on the study design, please review the following peer-reviewed paper:
 
-Huang, T., Kaulagi, V., Bokaei-Hosseini, M., Breaux, T.D. (2023). Mobile Application Privacy Risk Assessments from User-authored Scenarios. IEEE International Requirements Engineering Conference.
+Huang, T., Kualagi, V., Bokaei-Hosseini, M., Breaux, T.D. (2023). Mobile Application Privacy Risk Assessments from User-authored Scenarios. IEEE International Requirements Engineering Conference.
 
 The repository is located at the DOI: doi.org/10.5281/zenodo.8061495
 
